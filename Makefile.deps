@@ -1,0 +1,65 @@
+lib-mesg.o: lib-mesg.c lib-mesg.h lib-timing.h /usr/local/include/gmp.h \
+  /usr/local/include/pbc/pbc.h /usr/local/include/pbc/pbc_utils.h \
+  /usr/local/include/pbc/pbc_field.h /usr/local/include/pbc/pbc_param.h \
+  /usr/local/include/pbc/pbc_pairing.h \
+  /usr/local/include/pbc/pbc_curve.h /usr/local/include/pbc/pbc_mnt.h \
+  /usr/local/include/pbc/pbc_a1_param.h \
+  /usr/local/include/pbc/pbc_a_param.h \
+  /usr/local/include/pbc/pbc_d_param.h \
+  /usr/local/include/pbc/pbc_e_param.h \
+  /usr/local/include/pbc/pbc_f_param.h \
+  /usr/local/include/pbc/pbc_g_param.h \
+  /usr/local/include/pbc/pbc_i_param.h \
+  /usr/local/include/pbc/pbc_random.h \
+  /usr/local/include/pbc/pbc_memory.h
+lib-misc.o: lib-misc.c lib-misc.h /usr/local/include/gmp.h \
+  /usr/local/include/pbc/pbc.h /usr/local/include/pbc/pbc_utils.h \
+  /usr/local/include/pbc/pbc_field.h /usr/local/include/pbc/pbc_param.h \
+  /usr/local/include/pbc/pbc_pairing.h \
+  /usr/local/include/pbc/pbc_curve.h /usr/local/include/pbc/pbc_mnt.h \
+  /usr/local/include/pbc/pbc_a1_param.h \
+  /usr/local/include/pbc/pbc_a_param.h \
+  /usr/local/include/pbc/pbc_d_param.h \
+  /usr/local/include/pbc/pbc_e_param.h \
+  /usr/local/include/pbc/pbc_f_param.h \
+  /usr/local/include/pbc/pbc_g_param.h \
+  /usr/local/include/pbc/pbc_i_param.h \
+  /usr/local/include/pbc/pbc_random.h \
+  /usr/local/include/pbc/pbc_memory.h
+lib-timing.o: lib-timing.c lib-timing.h
+lib-vdf.o: lib-vdf.c lib-vdf.h lib-mesg.h lib-timing.h \
+  /usr/local/include/gmp.h /usr/local/include/pbc/pbc.h \
+  /usr/local/include/pbc/pbc_utils.h /usr/local/include/pbc/pbc_field.h \
+  /usr/local/include/pbc/pbc_param.h \
+  /usr/local/include/pbc/pbc_pairing.h \
+  /usr/local/include/pbc/pbc_curve.h /usr/local/include/pbc/pbc_mnt.h \
+  /usr/local/include/pbc/pbc_a1_param.h \
+  /usr/local/include/pbc/pbc_a_param.h \
+  /usr/local/include/pbc/pbc_d_param.h \
+  /usr/local/include/pbc/pbc_e_param.h \
+  /usr/local/include/pbc/pbc_f_param.h \
+  /usr/local/include/pbc/pbc_g_param.h \
+  /usr/local/include/pbc/pbc_i_param.h \
+  /usr/local/include/pbc/pbc_random.h \
+  /usr/local/include/pbc/pbc_memory.h /usr/local/include/nettle/md5.h \
+  /usr/local/include/nettle/nettle-types.h \
+  /usr/local/include/nettle/sha1.h /usr/local/include/nettle/sha2.h \
+  /usr/local/include/nettle/sha3.h
+test-vdf.o: test-vdf.c lib-vdf.h lib-mesg.h lib-timing.h \
+  /usr/local/include/gmp.h /usr/local/include/pbc/pbc.h \
+  /usr/local/include/pbc/pbc_utils.h /usr/local/include/pbc/pbc_field.h \
+  /usr/local/include/pbc/pbc_param.h \
+  /usr/local/include/pbc/pbc_pairing.h \
+  /usr/local/include/pbc/pbc_curve.h /usr/local/include/pbc/pbc_mnt.h \
+  /usr/local/include/pbc/pbc_a1_param.h \
+  /usr/local/include/pbc/pbc_a_param.h \
+  /usr/local/include/pbc/pbc_d_param.h \
+  /usr/local/include/pbc/pbc_e_param.h \
+  /usr/local/include/pbc/pbc_f_param.h \
+  /usr/local/include/pbc/pbc_g_param.h \
+  /usr/local/include/pbc/pbc_i_param.h \
+  /usr/local/include/pbc/pbc_random.h \
+  /usr/local/include/pbc/pbc_memory.h /usr/local/include/nettle/md5.h \
+  /usr/local/include/nettle/nettle-types.h \
+  /usr/local/include/nettle/sha1.h /usr/local/include/nettle/sha2.h \
+  /usr/local/include/nettle/sha3.h
